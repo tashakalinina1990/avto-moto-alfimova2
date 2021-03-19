@@ -1,0 +1,13 @@
+.container {
+  // max-width: 1176px;
+  max-width: $desktop-width;
+  margin: 0 auto;
+
+  @media (max-width: $min-content-width) {
+    width: $min-content-width;
+  }
+}
+
+main {
+  flex: 1 0 auto;
+}

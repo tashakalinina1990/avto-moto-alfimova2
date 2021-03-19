@@ -1,0 +1,23 @@
+
+env:
+  es6: true
+  browser: true
+  commonjs: true
+  jest: true
+  rules: {
+      quotes: ['error', 'single']
+    }
+
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 6
+  sourceType: module
+
+plugins: ['react']
+
+extends: [ 'eslint:recommended', 'plugin:react/recommended' ]
+
+settings:
+  react:
+    version: '17'
